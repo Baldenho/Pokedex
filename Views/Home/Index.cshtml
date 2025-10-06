@@ -1,6 +1,9 @@
 ﻿@model List<Pokemon>
 @{
     ViewData["Title"] = "Home Page";
+    string backgroundColor(string Cor){
+        return Cor.Replace("1)", "0.75)");
+    }
 }
 
 <div class="pt-5 container">
